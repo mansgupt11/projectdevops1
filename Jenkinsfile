@@ -8,7 +8,7 @@ node {
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
-		git 'https://github.com/mansgupt11/project1.git'
+		git 'https://github.com/mansgupt11/projectdevops1.git'
 	}
 	stage('Build') {
 		sh 'npm install'
